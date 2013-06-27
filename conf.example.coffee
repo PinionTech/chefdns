@@ -1,6 +1,9 @@
 module.exports =
   chefServer: "https://api.opscode.com/organizations/yourcompany"
-  filter: "s.mycompany.co$"
+
+  # Optional. If specified, we will ignore any queries that don't match the regex.
+  # 
+  # filter: /s.mycompany.co$/
 
   # These are defaults
   # 
